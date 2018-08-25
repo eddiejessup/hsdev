@@ -26,7 +26,6 @@ import Control.Monad.Except
 import Data.List
 import Data.Map.Strict (Map)
 import Data.Maybe (fromMaybe, mapMaybe)
-import Data.Semigroup
 import Data.String
 import Data.Text (Text)
 import qualified Data.Text as T

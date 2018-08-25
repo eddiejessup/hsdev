@@ -13,7 +13,7 @@ module HsDev.Tools.Ghc.MGhc (
 
 import Control.Lens
 import Control.Monad.Morph
-import Control.Monad.Catch
+import Control.Monad.Catch hiding (onError)
 import Control.Monad.Reader
 import Control.Monad.State
 import Data.Default as Def

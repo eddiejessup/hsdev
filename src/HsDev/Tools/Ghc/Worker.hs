@@ -21,7 +21,7 @@ import Control.Lens (view)
 import Control.Monad
 import Control.Monad.Except
 import Control.Monad.Reader
-import Control.Monad.Catch
+import Control.Monad.Catch hiding (onError)
 import Data.Monoid
 import qualified System.Log.Simple as Log
 import System.Log.Simple.Monad (MonadLog(..), LogT(..), withLog)

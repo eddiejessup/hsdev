@@ -30,7 +30,6 @@ import Data.Text.Lens (unpacked)
 import qualified Data.Text as T
 import Data.Time.Clock.POSIX (POSIXTime)
 import Data.Traversable (for)
-import Data.Semigroup
 import Data.String (IsString, fromString)
 import qualified Data.Set as S
 import System.Directory

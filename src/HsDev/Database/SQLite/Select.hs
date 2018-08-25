@@ -9,7 +9,6 @@ module HsDev.Database.SQLite.Select (
 import Data.String
 import Data.Text (Text)
 import qualified Data.Text as T
-import Data.Semigroup
 import Database.SQLite.Simple
 import Text.Format
 

@@ -8,7 +8,6 @@ import Control.Exception
 import Control.DeepSeq (NFData(..))
 import Data.Aeson
 import Data.Aeson.Types (Pair, Parser)
-import Data.Semigroup
 import Data.Typeable
 import Data.Text (Text)
 import Text.Format

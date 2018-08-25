@@ -27,7 +27,6 @@ import qualified Name
 import qualified Packages as GHC
 import qualified PatSyn as GHC
 import qualified Pretty
-import qualified SysTools
 import Outputable
 
 #if __GLASGOW_HASKELL__ >= 800

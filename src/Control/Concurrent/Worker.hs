@@ -11,7 +11,7 @@ module Control.Concurrent.Worker (
 
 import Control.Concurrent.MVar
 import Control.Monad.IO.Class
-import Control.Monad.Catch
+import Control.Monad.Catch hiding (onError)
 import Control.Monad.Except
 import Data.Maybe (isNothing)
 import Data.Typeable

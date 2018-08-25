@@ -38,10 +38,8 @@ import Data.List (intercalate)
 import Data.Maybe (catMaybes)
 import Data.Maybe.JustIf
 import Data.Monoid (Any(..))
-import Data.Monoid hiding ((<>))
 import Data.Function
 import Data.Ord
-import Data.Semigroup
 import Data.Map.Strict (Map)
 import qualified Data.Map.Strict as M
 import Data.Text (Text)

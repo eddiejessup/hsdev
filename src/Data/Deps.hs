@@ -16,7 +16,6 @@ import Control.Monad.Except
 import Data.List (nub, intercalate)
 import Data.Map.Strict (Map)
 import qualified Data.Map.Strict as M
-import Data.Semigroup
 import Data.Maybe (fromMaybe)
 
 -- | Dependency map

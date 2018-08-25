@@ -26,7 +26,6 @@ import Control.Monad.Reader
 import Control.Monad.Catch (bracket_, bracket, finally)
 import Data.Aeson hiding (Result, Error)
 import Data.Default
-import qualified Data.ByteString.Char8 as BS
 import Data.ByteString.Lazy.Char8 (ByteString)
 import qualified Data.ByteString.Lazy.Char8 as L
 import Data.Maybe
