@@ -1,14 +1,19 @@
-flags:
-  hsdev:
-    docs: False
-resolver: lts-11.10
+resolver: lts-12.8
 extra-package-dbs: []
 packages:
 - '.'
 - 'tests/test-package/'
+
+flags:
+  hsdev:
+    docs: False
+
 extra-deps:
 - haddock-api-2.18.1
 - haddock-library-1.4.4
 - hdocs-0.5.3.0
 - aeson-lens-0.5.0.0
-system-ghc: true
+- haskell-names-0.9.2
+- hformat-0.3.3.0
+- simple-log-0.9.6
+- text-region-0.3.1.0
